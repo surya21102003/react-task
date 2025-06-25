@@ -1,0 +1,14 @@
+.react-flow__node {
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+  }
+  
+  .react-flow__node.block-a {
+    border-color: #ff0072;
+  }
+  
+  .react-flow__node.block-b {
+    border-color: #0041d0;
+  }
