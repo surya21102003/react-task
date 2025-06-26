@@ -1,0 +1,16 @@
+.block-panel{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.block{
+    padding: 10px;
+    border:1px solid #333;
+    border-radius:5px;
+    background: white;
+    cursor:grab;
+    text-align:center;
+}
+.block:hover{
+    background:#f0f0;
+}
