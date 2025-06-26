@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReactFlow, { Background, Controls } from 'reactflow';
 import 'reactflow/dist/style.css';
 import ConnectionValidator from './ConnectionValidator';
-import useCanvasHandlers from '../../../hooks/useCanvasHandlers';
+import useCanvasHandlers from '../../hooks/useCanvasHandlers';
 import nodeTypes from '../NodeTypes/nodeTypes';
 import ContextMenu from '../ContextMenu/ContextMenu';
 import './CanvasArea.css';
