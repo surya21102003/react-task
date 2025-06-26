@@ -1,5 +1,5 @@
 import React from 'react';
-import './BlockPanel.css';
+import './BlockItem.css';
 
 const BlockItem = ({ block }) => {
   const onDragStart = (event, nodeType) => {
